@@ -1,0 +1,122 @@
+ .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #999999;
+  
+    }
+    
+   
+    .row.content {height: 450px}
+    
+   
+    .sidenav {
+      padding-top: 20px;
+      background-color: #999999;
+      color: #171717;
+      height: 100%;
+    }
+
+    body {
+      background-color: ;
+    }
+
+
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+    
+    footer {
+      background-color: #171717;
+      color: #d4d4d4;
+      padding: 32px;
+
+    }
+
+     }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }  
+
+    .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+    }
+    
+    .affix + .container-fluid {
+      padding-top: 70px;
+    }
+
+     .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color:  #666666;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+
+    h2 {
+      font-size: 38px;
+      font-family: Montserrat, sans-serif;
+      font-weight: 100;
+      text-align: center;
+
+    }
+
+    h3 {
+      font-family: 'kavivanar';
+      font-size: 24px;
+      text-align: center;
+
+    }
+
+    h1{
+      font-size: 38px;
+      font-family: Montserrat, sans-serif;
+      font-weight: 100;
+      text-align: center;
+      border: thick;
+      background-color: #999999;
+    }
+
+    h4 {
+      font-family: 'kavivanar';
+      font-size: 24px;
+      text-align: center;
+
+    }
+
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
